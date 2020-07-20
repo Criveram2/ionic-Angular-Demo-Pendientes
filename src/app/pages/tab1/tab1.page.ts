@@ -55,12 +55,5 @@ export class Tab1Page {
     alert.present();
   }
 
-  /**
-   * Redireccionar a la listaCreada
-   * @author Camilo Rivera
-   */
-  listaSeleccionada(lista: Lista) {
-    console.log(lista);
-    this.router.navigateByUrl(`/tabs/tab1/agregar/${lista.id}`);
-  }
+
 }
